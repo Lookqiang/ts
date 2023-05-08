@@ -4,7 +4,9 @@ import { isEmpty2 } from "./assets/fun"
 Vue.config.productionTip = false;
 isEmpty2('s')
 Vue.config.productionTip = false
-
-new Vue({
+console.log(new Vue({
     render: h => h(App),
-}).$mount('#app')
+}))
+// new Vue({
+//     render: h => h(App),
+// }).$mount('#app')
